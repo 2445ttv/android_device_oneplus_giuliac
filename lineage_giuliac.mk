@@ -23,8 +23,8 @@ PRODUCT_MODEL := PKG110
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi-user 16 BP2A.250605.015 1765278383514 release-keys" \
-    BuildFingerprint=OnePlus/PKG110/OP5D2BL1:16/UKQ1.231108.001/V.2606cdb-492d8a-49c817:user/release-keys \
+    BuildDesc="qssi-user 16 BP2A.250605.015 1767889607989 release-keys" \
+    BuildFingerprint=OnePlus/PKG110/OP5D2BL1:16/UKQ1.231108.001/V.1f672c7_296bea_2963ce:user/release-keys \
     DeviceName=OP5D2BL1 \
     DeviceProduct=PKG110 \
     SystemDevice=OP5D2BL1 \
