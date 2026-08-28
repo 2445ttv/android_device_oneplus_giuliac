@@ -29,3 +29,28 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=PKG110 \
     SystemDevice=OP5D2BL1 \
     SystemName=PKG110
+
+# GMS
+# WITH_GMS is a boolean flag to indicate 
+# whether to include Google Mobile Services (GMS) in the build.
+WITH_GMS ?= true
+# LatinIMEGooglePrebuilt
+# Only works on vanilla builds,
+# GMS builds will use the Google IME from GMS.
+TARGET_INCLUDE_GOOGLEIME ?= true
+TARGET_GOOGLEIME_OVERRIDE_IME ?= true
+
+# Spoof Props
+# Set to true to enable spoofing fake props.
+# For letting apps think they are running on a locked device.
+AVIUM_FORCE_SET_FAKE_PROP ?= true
+
+# Settings
+# Soc model name
+AVIUM_SETTINGS_SOC_MODEL_NAME ?= Snapdragon® 8 Gen 3
+# Device code name
+AVIUM_SETTINGS_DEVICE_CODENAME ?= giulia
+
+# Maintainer
+# AVIUM_MAINTAINER is a string that represents the maintainer of the build.
+AVIUM_MAINTAINER ?= o_O
