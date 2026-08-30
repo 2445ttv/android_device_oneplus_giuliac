@@ -49,7 +49,7 @@ AVIUM_FORCE_SET_FAKE_PROP ?= true
 # Soc model name
 AVIUM_SETTINGS_SOC_MODEL_NAME ?= Snapdragon® 8 Gen 3
 # Device code name
-AVIUM_SETTINGS_DEVICE_CODENAME ?= giulia
+AVIUM_SETTINGS_DEVICE_CODENAME ?= giuliac
 
 # Maintainer
 # AVIUM_MAINTAINER is a string that represents the maintainer of the build.
